@@ -1,0 +1,344 @@
+body{
+    background-color: #eeb5eb;
+    
+}
+
+    @font-face {
+        font-family: 'Playfair Display';
+        src: url('../font/PlayfairDisplay-VariableFont_wght.ttf');
+    }
+    @font-face {
+        font-family: 'RobotoSlab';
+        src: url('../font/RobotoSlab-VariableFont_wght.ttf');
+    }
+    @font-face {
+        font-family: 'WorkSans';
+        src: url('../font/WorkSans-VariableFont_wght.ttf');
+    }
+    @font-face{
+        font-family: 'Inter';
+        src: url('../font/Inter-VariableFont_slnt,wght.ttf')
+    }
+
+/* nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+} */
+
+/**** LOGO ****/
+.logo {
+    height: 100px;
+    width: auto;
+}
+#mb{
+    font-size: 1.5em;
+}
+
+#efeito{
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+    display: flex;
+    
+}
+
+#harry{
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+
+
+#boton{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    
+    
+    background-color: #FFF;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center; 
+
+}
+
+#boton a {
+    display: block;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+#mione{
+    display: flex;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+#blabla{
+    display: block;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+
+
+#imginicio{
+    
+    background-image: url(../img/principal.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 250px 0px 250px 0px;
+    margin: 0px 0px;
+}
+#boton{
+    width: 100%;
+    background-color: rgb(255, 255, 255);    ;
+    top: 103px;
+    left: -100%;
+    position: absolute;
+    transition: 0.7s left ease;
+}
+
+.mostrar{
+    left: 0px !important;
+}
+
+
+
+#lookbranco{
+    background-image: url(../img/m1.JPG);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+
+#lookrosabb{
+    background-image: url(../img/m2.JPG);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+
+#lookpreto{
+    background-image: url(../img/m3.JPG);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+
+#lookamarelo{
+    background-image: url(../img/m4.JPG);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+
+#lookverde{
+    background-image: url(../img/m5.JPG);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+#lookvermelho{
+    background-image: url(../img/m6.JPG);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+
+#lookrosa{
+    background-image: url(../img/m7.JPG);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+
+#maketiedye{
+    background-image: url(../img/b1.jpeg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+
+#makelaranja{
+    background-image: url(../img/b2.jpeg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+
+}#makefoxyeyes{
+    background-image: url(../img/b3.jpeg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+#makeamarelo{
+    background-image: url(../img/b4.jpeg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 250px 0px;
+    margin: 20px 0px;
+}
+
+#makeglitter{
+    background-image: url(../img/b5.jpeg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+
+#makerosa{
+    background-image: url(../img/b6.jpeg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+
+#makebasiquinha{
+    background-image: url(../img/b7.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 200px 0px;
+    margin: 20px 0px;
+}
+
+/**** POST ****/
+.img-post img {
+    height: 700px;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #161616;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+@media (min-width: 600px){
+    #boton{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #imginicio{
+        width: 80%;
+        max-width: 800px;
+    }
+
+    #lookbranco{
+        width: 80%;
+        max-width: 500px;
+    }
+    #lookrosabb{
+
+        width: 80%;
+        max-width: 500px
+    }
+    #lookpreto{
+
+        width: 80%;
+        max-width: 500px
+    }
+
+    #lookamarelo{
+
+        width: 80%;
+        max-width: 500px
+    }
+    #lookverde{
+
+        width: 80%;
+        max-width: 500px
+    }
+    #lookvermelho{
+
+        width: 80%;
+        max-width: 500px
+    }
+    #lookrosa{
+
+        width: 80%;
+        max-width: 500px
+    }
+    #maketiedye{
+
+        width: 80%;
+        max-width: 500px
+    }
+    #makelaranja {
+
+        width: 80%;
+        max-width: 500px
+    }
+
+    #makefoxyeyes {
+
+        width: 80%;
+        max-width: 500px
+    }
+
+    #makeamarelo {
+
+        width: 80%;
+        max-width: 500px
+    }
+
+    #makeglitter {
+
+        width: 80%;
+        max-width: 500px
+    }
+
+    #makerosa {
+
+        width: 80%;
+        max-width: 500px
+    }
+
+   
+
+}
